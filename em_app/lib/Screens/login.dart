@@ -36,12 +36,28 @@ class _LoginPageState extends State<LoginPage> {
             const SizedBox(
               height: 10,
             ),
-            TextButton(
-                onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => HomePage()));
-                },
-                child: Text('Login'))
+            ElevatedButton.icon(
+              onPressed: () {
+                // Handle Facebook login
+              },
+              icon: Icon(Icons.facebook),
+              label: Text('Login with Facebook'),
+              style: ElevatedButton.styleFrom(
+                primary: Colors.blue,
+              ),
+            ),
+            const SizedBox(
+              height: 10,
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => HomePage()),
+                );
+              },
+              child: Text('Login'),
+            ),
           ],
         ),
       ),
