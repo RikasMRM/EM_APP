@@ -1,16 +1,38 @@
 # em_app
 
-A new Flutter project.
+em_app is a Flutter mobile application that utilizes Facebook authentication and Google Maps to provide users with a seamless experience. However, please note that the images in this app may not be currently functioning.
 
-## Getting Started
+# Features
 
-This project is a starting point for a Flutter application.
+Facebook authentication: em_app allows users to sign in to the app using their Facebook account.
 
-A few resources to get you started if this is your first Flutter project:
+Google Maps integration: em_app utilizes Google Maps to display interactive maps and location-based information.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Installation
+To install em_app, follow these steps:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+Clone the repository onto your local machine.
+Open the project in your preferred IDE.
+Run flutter pub get to install the necessary packages.
+Add your Facebook and Google Maps API credentials to the project.
+Run the app on an emulator or physical device.
+```
+
+```bash
+Dependencies
+em_app relies on the following packages:
+
+flutter_facebook_auth: Provides Facebook authentication functionality.
+google_maps_flutter: Enables Google Maps integration in the app.
+```
+
+Usage
+To use em_app, follow these steps:
+
+Sign in to the app using your Facebook credentials.
+Explore the interactive maps and location-based information provided by Google Maps.
+
+## Known Issues
+Please note that some of the images in this app may not be currently functioning. We apologize for any inconvenience this may cause.
+
